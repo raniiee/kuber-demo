@@ -20,4 +20,4 @@ spec:
         - name: hello-app
           image: hello-app:v.01
           ports:
-            - containerPort: 8080
+            - containerPort: 8081

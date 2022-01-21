@@ -9,7 +9,7 @@ func main() {
 	handler := http.NewServeMux()
 	handler.HandleFunc("/api/hello", Hello)
 	http.ListenAndServe("0.0.0.0:8081", handler)
-	// Listen to all request to port 8080.
+	// Listen to all request to port 8081.
 }
 
 func Hello(w http.ResponseWriter, r *http.Request) {
